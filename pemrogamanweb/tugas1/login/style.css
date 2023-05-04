@@ -1,9 +1,55 @@
 @charset "utf-8";
+
 /* CSS Document */
 
-body {      font-family: Arial, Helvetica, sans-serif;}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
 
-.divform {
-    border: 1px;
-    color: #f2f2f2;
+form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    color: #f1f1f1;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(226, 66, 219, 1) 0%, rgba(108, 0, 255, 1) 100%);
+}
+
+button:hover {
+    background: #8e8e8e;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0px 1px 21px -1px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.content_left {
+    align-items: center;
+    width: 50%;
+    padding: 150px 50px;
+    background: #f1f1f1;
+}
+
+.content_right {
+    align-items: center;
+    width: 50%;
+    padding: 150px 50px;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(226, 66, 219, 1) 0%, rgba(108, 0, 255, 1) 100%);
+    color: #fce1ff;
 }
