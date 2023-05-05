@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .topnav {
-  background-color: #333;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(226, 66, 219, 1) 0%, rgba(108, 0, 255, 1) 100%);
   overflow: hidden;
 }
 
@@ -17,13 +17,13 @@
 
 
 .topnav a:hover {
-  background-color: #D3D26D;
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,73,231,1) 0%, rgba(0,228,255,1) 100%);
   color: black;
 }
 
 
 .topnav a.active {
-  background-color: #FFFD00;
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,73,231,1) 0%, rgba(0,228,255,1) 100%);
   color: #333;
 }
 .t1{
